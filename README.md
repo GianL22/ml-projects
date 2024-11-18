@@ -8,3 +8,5 @@ Listado de algunos proyectos de machine learning:
     - Regresión lineal con decenso de gradiente
     - Kernel Ridge Regression
     - KNN
+## Datasets
+Los datasets usados son referenciados en cada proyecto. 
