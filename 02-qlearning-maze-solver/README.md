@@ -25,10 +25,11 @@ $$
 El agente tiene una **menor penalización** si se aleja del punto de inicio. Con esto, se busca motivarlo a explorar más el entorno, lo cual se traduce en un menor tiempo de convergencia y generar tablas Q con más facilidad. Por supeusto, consigue una alta recompensa si llega al final.
 
 ### Notebooks
-
+<div style="display: flex; flex-wrap: nowrap;">
 <img src="./assets/maze5x5.PNG" alt="Descripción de la imagen 1" style="width: 30%; display: inline-block;"> 
 <img src="./assets/reward5x5.PNG" alt="Descripción de la imagen 2" style="width: 30%; display: inline-block;"> 
 <img src="./assets/solve5x5.PNG" alt="Descripción de la imagen 3" style="width: 30%; display: inline-block;">
+</div>
 
 En primer lugar, se realizó un notebook para resolver laberintos 14x14. Luego, se utilizó el mismo notebook para resolver laberintos 5x5. Si es necesario 
 cambiar la dimensión del laberinto, solo debes cambiar el valor de `MAZE_DIMENSION`. 
