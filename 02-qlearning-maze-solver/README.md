@@ -1,8 +1,9 @@
 # Usando Q-learning (aprendizaje por refuerzo) para resolver laberintos
+<div style="display: flex; flex-wrap: nowrap;">
 <img src="./assets/maze14x14.PNG" alt="Descripción de la imagen 1" style="width: 30%; display: inline-block;"> 
 <img src="./assets/reward14x14.PNG" alt="Descripción de la imagen 2" style="width: 30%; display: inline-block;"> 
 <img src="./assets/solve14x14.PNG" alt="Descripción de la imagen 3" style="width: 30%; display: inline-block;">
-
+</div>
 El **Q-learning** consiste en asignarle un valor de calidad a cada acción dado un estado, de modo que se genere una tabla Q que permita al agente **tomar decisiones informadas**. La tabla Q se rellena a partir de la interacción del agente con el laberinto, donde cada acción se verá recompensada o penalizada según su impacto en el objetivo.
 
 Los modelos de aprendizaje reforzado que resuelven laberintos, como el Q-learning, tienen aplicaciones directas como **optimización de rutas**, **generación de niveles de videojuegos**, **simular procesos** y **guiar robots**, entre otras que involucren navegación y toma de decisiones en entornos complejos.
