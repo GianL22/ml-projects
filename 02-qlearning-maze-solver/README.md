@@ -8,11 +8,13 @@ El **Q-learning** consiste en asignarle un valor de calidad a cada acción dado 
 Los modelos de aprendizaje reforzado que resuelven laberintos, como el Q-learning, tienen aplicaciones directas como **optimización de rutas**, **generación de niveles de videojuegos**, **simular procesos** y **guiar robots**, entre otras que involucren navegación y toma de decisiones en entornos complejos.
 
 Cada valor de Q se actualiza mediante la siguiente expresión:
+
 $$
 \begin{equation}
 Q(s, a) \leftarrow Q(s, a) + \alpha (r + \gamma \max_{a'} Q(s', a') - Q(s, a))
 \end{equation}
 $$
+
 **Alpha (α)**: Es el factor de aprendizaje, que controla la velocidad a la que el agente aprende de sus experiencias.
 
 **Gamma (γ)**: Es el factor de descuento, que determina la importancia de las recompensas futuras en comparación con las actuales.
