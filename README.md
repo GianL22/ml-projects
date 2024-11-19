@@ -2,10 +2,10 @@
 Listado de algunos proyectos de machine learning:
 - Detección de anomalías con LSTM-Autoencoders
 - Resolución de laberintos mediante aprendizaje automático con Q-learning
-- Implementación form scratch de:
+- Implementación from scratch de:
     - Perceptrón
     - Redes feedfoward
-    - Regresión lineal con decenso de gradiente
+    - Regresión lineal con descenso de gradiente
     - Kernel Ridge Regression
     - KNN
 ## Datasets
