@@ -1,5 +1,5 @@
 # Feedfoward *from scratch*
-![Alt text](./assets/feedfoward.png "a graph")
+![Alt text](./assets/feedfoward.PNG "a graph")
 
 Implementación de un modelo feedfoward para clasificación no lineal. En este caso, se utilizó la red como compuerta xor.
 
